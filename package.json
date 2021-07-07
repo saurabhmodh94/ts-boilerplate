@@ -12,14 +12,18 @@
     "start": "npm run build && node ./build/index.js",
     "prettier": "prettier --config .prettierrc --ignore-path .gitignore --write './**/*.ts'",
     "test": "jest --config jest.config.json --watchAll --no-cache",
-    "coverage": "jest --config jest.config.json --coverage"
+    "coverage": "jest --config jest.config.json --coverage",
+    "lint": "eslint --fix --ignore-path .eslintignore -- ./src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
     "concurrently": "^6.2.0",
+    "eslint": "^7.30.0",
     "jest": "^27.0.6",
     "nodemon": "^2.0.9",
     "prettier": "^2.3.2",
