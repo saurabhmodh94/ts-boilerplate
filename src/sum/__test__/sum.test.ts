@@ -1,4 +1,4 @@
-const sum = require('./../sum');
+import sum from './../sum';
 
 describe('Test Sum Function', () => {
   test('adds 1 + 2 to equal 3', () => {
