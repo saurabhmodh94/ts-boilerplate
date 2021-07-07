@@ -11,16 +11,8 @@
     "build": "tsc",
     "start": "npm run build && node ./build/index.js",
     "prettier": "prettier --config .prettierrc --ignore-path .gitignore --write './**/*.ts'",
-    "test": "jest --watchAll --no-cache",
-    "coverage": "jest --coverage"
-  },
-  "jest": {
-    "verbose": true,
-    "preset": "ts-jest",
-    "testEnvironment": "node",
-    "setupFilesAfterEnv": [
-      "./src/test/setup.ts"
-    ]
+    "test": "jest --config jest.config.json --watchAll --no-cache",
+    "coverage": "jest --config jest.config.json --coverage"
   },
   "keywords": [],
   "author": "",
