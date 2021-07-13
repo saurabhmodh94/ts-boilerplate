@@ -7,6 +7,8 @@
 - testing with jest
   - watchAll
   - coverage
+- axios
+- JSDoc
 
 check package.json for scripts and other details.
 
