@@ -8,4 +8,4 @@ describe('Test Sum Function', () => {
   test('adds 2 + 2 to equal 4', () => {
     return expect(sum(2, 2)).toBe(5);
   });
-})
+});
