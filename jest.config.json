@@ -4,7 +4,7 @@
   "testEnvironment": "node",
   "setupFilesAfterEnv": ["./src/test/setup.ts"],
   "collectCoverageFrom": ["src/**/*.ts"],
-  "testPathIgnorePatterns": ["build", "src/example"],
+  "testPathIgnorePatterns": ["build"],
   "coverageThreshold": {
     "global": {
       "branches": 90,
@@ -13,5 +13,5 @@
       "statements": 90
     }
   },
-  "coveragePathIgnorePatterns": ["build", "src/example"]
+  "coveragePathIgnorePatterns": ["build"]
 }
