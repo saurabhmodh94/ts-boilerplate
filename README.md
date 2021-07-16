@@ -24,6 +24,11 @@ npm version: \
 - npm install
 - npm start
 
+## husky setup
+
+- npm run prepare
+- npx husky add .husky/pre-commit ""
+
 ## scripts:
 
 npm run
