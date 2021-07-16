@@ -1,3 +1,7 @@
+'use strict';
+
+jest.useFakeTimers();
+
 beforeAll(() => {
   console.log('---> before all');
 });
