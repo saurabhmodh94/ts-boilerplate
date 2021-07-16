@@ -1,2 +1,3 @@
-const number = 5;
-console.log(number);
+let price: number;
+price = 5;
+console.log(price);
